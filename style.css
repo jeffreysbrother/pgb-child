@@ -1,9 +1,9 @@
 /*
  Theme Name:   PGB Grandchild
  Theme URI:    https://github.com/jeffreysbrother/pgb-child
- Description:  Example child theme of ProGo Base pgb. Currently just enqueues the default pgb style.css as well, and has no extra sidebars or Page Templates or anything else. But you could fork it and make it do more?
+ Description:  This is an extension of the pngb-child theme available here: https://github.com/progothemes/pgb-child.
  Author:       James Cool
- Author URI:   http://www.progo.com
+ Author URI:   http://jeffreysbrother.github.io/
  Version:      0.0.1
  Template:     pgb
  License:      GPLv2 or later
@@ -11,3 +11,42 @@
 */
 
 /* and then? */
+
+
+
+
+.contact7-message {
+	padding: 5px;
+}
+
+/*fix issue with footer disabling input elements in smaller viewports on Contact page*/
+.entry-meta {
+	z-index: -1;
+}
+
+@media (min-width: 992px) {
+
+	.contact7-name,
+	.contact7-email,
+	.contact7-subject {
+		width: 200px;
+		margin-bottom: 15px;
+
+	}
+
+	.contact7-name,
+	.contact7-email {
+		margin-right: 10px;
+	}
+
+	#name-wrap,
+	#email-wrap,
+	#subject-wrap {
+		display: inline;
+		float: left;
+	}
+
+	textarea.wpcf7-form-control.wpcf7-textarea {
+		width: 100%;
+	}
+}
