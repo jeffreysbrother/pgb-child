@@ -1,6 +1,4 @@
 # pgb-grandchild
-Example child theme of ProGo Base pgb. Currently just enqueues the default pgb style.css as well, and has no extra sidebars or Page Templates or anything else.
+This is an extension of the ProGo Base theme, available [here](https://github.com/progothemes/pgb). This was created for examination purposes only.
 
 ![awesome](https://raw.githubusercontent.com/jeffreysbrother/pgb-child/master/screenshot.png)
-
-But you could fork it and make it do more.
