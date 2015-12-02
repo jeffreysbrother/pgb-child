@@ -39,12 +39,12 @@
 		margin-right: 10px;
 	}
 
-	#name-wrap,
+/*	#name-wrap,
 	#email-wrap,
 	#subject-wrap {
 		display: inline;
 		float: left;
-	}
+	}*/
 
 	textarea.wpcf7-form-control.wpcf7-textarea {
 		width: 100%;
