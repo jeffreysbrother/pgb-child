@@ -15,9 +15,9 @@
 
 
 
-.contact7-message {
+/*.contact7-message {
 	padding: 5px;
-}
+}*/
 
 /*fix issue with footer disabling input elements in smaller viewports on Contact page*/
 .entry-meta {
@@ -29,14 +29,14 @@
 	.contact7-name,
 	.contact7-email,
 	.contact7-subject {
-		width: 200px;
+		/*width: 200px;*/
 		margin-bottom: 15px;
 
 	}
 
 	.contact7-name,
 	.contact7-email {
-		margin-right: 10px;
+		/*margin-right: 10px;*/
 	}
 
 /*	#name-wrap,
