@@ -15,17 +15,13 @@
 
 
 
-/*.contact7-message {
-	padding: 5px;
-}*/
-
 /*fix issue with footer disabling input elements in smaller viewports on Contact page*/
 .entry-meta {
 	z-index: -1;
 }
 
 .btn {
-    padding: 8px 25px;
+	padding: 8px 25px;
     margin-top: 5px;
 }
 
@@ -34,24 +30,15 @@
 	.contact7-name,
 	.contact7-email,
 	.contact7-subject {
-		/*width: 200px;*/
 		margin-bottom: 15px;
-
 	}
-
-	.contact7-name,
-	.contact7-email {
-		/*margin-right: 10px;*/
-	}
-
-/*	#name-wrap,
-	#email-wrap,
-	#subject-wrap {
-		display: inline;
-		float: left;
-	}*/
 
 	textarea.wpcf7-form-control.wpcf7-textarea {
 		width: 100%;
+	}
+
+	/*this positions the forms so that they align with the "ninthlink texting" section on the left in large viewports*/
+	.down {
+		margin-top: 20px;
 	}
 }
